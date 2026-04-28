@@ -57,4 +57,5 @@ jobs:
           app-name: 'mooe-prod-middleware'
           slot-name: 'mooe-staging'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DF677BD6733D4DC5AA89C3E02876EADF }}
+          # publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DF677BD6733D4DC5AA89C3E02876EADF }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
